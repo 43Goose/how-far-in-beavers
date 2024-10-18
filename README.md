@@ -1,27 +1,13 @@
-# HowFarInBeavers
+# How Far in Beavers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+A site that allows you to measure any distance with anything! It uses chatgpt-4o to find the information. Answers may vary due to incosistent responses from gpt but the point of this project was more for fun and to learn AI integration rather than data accuracy.
 
-## Development server
+## About Me
+I'm a self-taught, full-stack web and software developer from Vancouver, Canada. I take pride in the finer details and overall quality of my work. I mostly use JavaScript and React, however, I am knowledgeable in a plethora of programming languages and frameworks. I'm always trying to learn new skills and expand upon my current ones.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🔗 Links
+[![GITHUB](https://img.shields.io/badge/GITHUB-43Goose-2088FF?labelColor=222&style=for-the-badge&logo=github&logoColor=FFF&link=https://github.com/43Goose)](https://github.com/43Goose)
 
-## Code scaffolding
+[![Contact](https://img.shields.io/badge/Contact-goose.dvlpr@gmail.com-EA4335?labelColor=222&style=for-the-badge&logo=gmail&logoColor=FFF&link=mailto:goose.dvlpr@gmail.com)](mailto:goose.dvlpr@gmail.com)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[![Site](https://img.shields.io/badge/Portfolio-owenedwards.ca-1d2754?labelColor=222&style=for-the-badge&logo=&logoColor=FFF&link=https://owenedwards.ca)](https://owenedwards.ca)

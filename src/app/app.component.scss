@@ -37,6 +37,23 @@
     text-shadow: 2px 2px 5px #000;
 }
 
+#footer {
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    bottom: 0;
+    padding: 0 1rem;
+}
+
+#github-link img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 h1 {
     color: $main-color;
     font-size: 3rem;
@@ -47,6 +64,11 @@ h1 {
 h2, h3 {
     text-align: center;
     margin: 0.5rem 0;
+}
+
+a {
+    color: $font-color;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -65,5 +87,9 @@ h2, h3 {
 
     #title {
         bottom: 0;
+    }
+
+    #footer {
+        padding: 0 2rem;
     }
 }

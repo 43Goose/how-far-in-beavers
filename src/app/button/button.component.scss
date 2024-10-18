@@ -1,0 +1,22 @@
+@import "../../vars";
+
+button {
+    background-color: $main-color;
+    color: $font-color;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    scale: 95%;
+}
+
+button:hover, button:active {
+    background-color: adjust-color($color: $main-color, $lightness: -8%);
+}

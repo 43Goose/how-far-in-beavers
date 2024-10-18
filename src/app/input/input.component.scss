@@ -1,0 +1,46 @@
+@import "../../vars";
+
+.input-container {
+    position: relative;
+    padding: 1rem;
+}
+
+.input-label {
+    background-color: transparent;
+    color: $main-color;
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.75rem;
+    position: absolute;
+    left: 1.5rem;
+    top: -12px;
+    transition-property: top, left;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+}
+
+input {
+    background-color: adjust-color($color: $bg-color, $lightness: 8%);
+    color: $font-color;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+input:focus {
+    outline: $main-color 0.15rem solid;
+}
+
+input:hover, input:focus {
+    background-color: $bg-color;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+input:focus ~ .input-label {
+    background-color: $bg-color;
+    left: 2rem;
+    top: 0;
+}
